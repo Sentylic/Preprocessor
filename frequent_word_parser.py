@@ -6,4 +6,4 @@ class FrequentWordParser(SentenceParser):
         pass
 
     def parse(self, sentence):
-        return sentence + '-Frequent word parsed'
+        return sentence + '-Frequent_word_parsed'

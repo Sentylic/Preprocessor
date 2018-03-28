@@ -6,4 +6,4 @@ class EmojiParser(SentenceParser):
         pass
 
     def parse(self, sentence):
-        return sentence + '-Emoji parsed'
+        return sentence + '-Emoji_parsed'

@@ -9,7 +9,10 @@ frequentWordParser = FrequentWordParser()
 # registration component
 sentenceParseRegister = SentenceParseRegister()
 
+# register each sentence parser component
+sentenceParseRegister\
+    .register(emojiParser)\
+    .register(frequentWordParser)
 
-sentenceParseRegister.register(emojiParser).register(frequentWordParser)
-
-print sentenceParseRegister.parsers
+# process input files
+sentenceParseRegister.process("Input", "Output")

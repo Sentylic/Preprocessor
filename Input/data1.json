@@ -1,0 +1,23 @@
+[
+  {
+    "content": "message1",
+    "timestamp": "2016-02-12 03:23:23",
+    "location": "Colombo",
+    "source": null,
+    "author": "Supun"
+  },
+  {
+    "content": "message2",
+    "timestamp": "2016-04-12 06:23:23",
+    "location": "Colombo",
+    "source": null,
+    "author": "Isura"
+  },
+  {
+    "content": "message3",
+    "timestamp": "2016-02-02 01:23:23",
+    "location": "Badulla",
+    "source": null,
+    "author": "Prabod"
+  }
+]
