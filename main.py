@@ -1,5 +1,5 @@
 from emoji_parser import EmojiParser
-from senetence_parse_register import SentenceParseRegister
+from sentence_parse_register import SentenceParseRegister
 from frequent_word_parser import FrequentWordParser
 
 # sentence parser
@@ -10,7 +10,6 @@ frequentWordParser = FrequentWordParser()
 sentenceParseRegister = SentenceParseRegister()
 
 
-sentenceParseRegister.register(emojiParser)
-sentenceParseRegister.register(frequentWordParser)
+sentenceParseRegister.register(emojiParser).register(frequentWordParser)
 
 print sentenceParseRegister.parsers
