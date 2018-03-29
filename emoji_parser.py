@@ -3,8 +3,8 @@ import re
 import emoji
 
 class EmojiParser(SentenceParser):
-    def __init__(self):
-        pass
+	def __init__(self):
+		pass
 
-    def parse(self, sentence):
-        return emoji.demojize(sentence)
+	def parse(self, sentence):
+		return emoji.demojize(sentence)
